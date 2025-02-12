@@ -1,0 +1,57 @@
+:root{
+    --blue:#4C5FD5;
+    --baby-blue:#dadbf1;
+    --black:#000000;
+    --white:#fff;
+    --pink:#ff7fb8;
+}
+
+body{
+
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: var(--white);
+  }
+/*=============
+    nav bar
+===============*/
+
+header{
+    position: fixed; /*عشان يضل ثابت بس احرك الصفحة*/
+    top: 0;
+    width: 100%;
+    background-color: var(--Desert-Rose);
+    border-bottom: 1px solid var(--Gold);
+}
+nav{
+    display: flex;  
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 100%;
+    height: 100px;
+    background-color: var(--black);
+   
+    
+}
+.logo img{width: 10%;
+     margin: 25px;
+     margin-left: 100px;
+    }
+
+
+.logo a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    column-gap: 2px;  
+    font-size: 25px;
+    
+}

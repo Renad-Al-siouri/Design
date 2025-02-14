@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Abstract</title>
     <link rel="stylesheet" href="css-file/styles.css">
-    <box-icon type='solid' name='network-chart'></box-icon>
+    <link rel="stylesheet" href="normalize">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,15 +15,15 @@
     <div class="header">
         <div class="links">
             <div class="logo">
-                <a href="https://www.abstract.com/"><img
-                        src="img/60c388bf3c3ae4d1d10653e7_Abstract_Wordmark-White.svg"></a>
+                <a href="https://www.abstract.com/">
+                    <img src="img/60c388bf3c3ae4d1d10653e7_Abstract_Wordmark-White.svg"></a>
             </div>
-            <a href="#">| Help Center</a>
-
+            <a href="#" class="Help-Center"><b>|</b> Help Center</a>
         </div>
 
-        <div> <button type="submit">Submit a request</button>
-            <button>Sign in</button>
+
+        <div> <button type="submit" class="button1">Submit a request</button>
+            <button class="button2">Sign in</button>
         </div>
     </div>
     <!-- End header -->
@@ -30,67 +31,147 @@
     <div class="Features-Section">
         <h1>How can we help?</h1>
         <div>
-            <input type="text" placeholder="Search" id="Search">
+
+            <input type="text" placeholder="Search" id="Search" class="Search">
         </div>
     </div>
     <!--  End eatures Section -->
 
-    <div class="ss">
+    <div class="parent">
 
-        <div class="Using=Abstract">
-        <img src="img/icon-versions.png">
-            <h1>Using Abstract</h1>
-            <p>Abstract lets you manage,<br>
-                version, and document your <br>
-                designs in one place.</p>
-            <a href="#">Learn More</a>
+        <div class="Using-Abstract">
+            <div><img src="img/icon-versions.png"></div>
+            <div class="text-content">
+                <h1>Using Abstract</h1>
+                <p>Abstract lets you manage,<br>
+                    version, and document your <br>
+                    designs in one place.</p>
+                <a href="#">Learn More</a>
+            </div>
+
         </div>
 
-        <div>
+        <div class="Manage-Account">
+            <div><img src="img/icon-account.png"></div>
+            <div class="text-content">
+                <h1>Manage your account</h1>
+                <p>Configure your account <br>settings, such as your email,<br> profile details, and password.</p>
+                <a href="#">Learn More</a>
+            </div>
 
-            <h1>Manage your account</h1>
-            <p>Configure your account <br>settings, such as your email,<br> profile details, and password.</p>
-            <a href="#">Learn More</a>
-        </div>
-    </div>
-    <div class="sss">
-
-        <div>
-
-            <h1>Manage organizations,<br>
-                 teams, and projects</h1>
-            <p>Use Abstract organizations,<br> teams, and projects to<br> organize your people and your work.</p>
-            <a href="#">Learn More</a>
-        </div>
-
-        <div>
-
-            <h1>Manage billing</h1>
-            <p>Change subscriptions and <br> payment details.</p>
-            <a href="#">Learn More</a>
         </div>
     </div>
 
-    <div class="ssss">
 
-        <div>
 
-            <h1>Authenticate to Abstract</h1>
-            <p>Set up and configure SSO,<br> SCIM, and Just-in-Time provisioning.
-            </p>
-            <a href="#">Learn More</a>
+    <div class="parent">
+
+        <div class="Manage-organizations">
+            <div> <img src="img/icon-organizations.png"> </div>
+            <div class="text-content">
+                <h1>Manage organizations,<br>
+                    teams, and projects</h1>
+                <p>Use Abstract organizations,<br> teams, and projects to<br> organize your people and your work.</p>
+                <a href="#">Learn More</a>
+            </div>
         </div>
 
-        <div>
-
-            <h1>Abstract support</h1>
-            <p>Get in touch with a human.</p>
-            <a href="#">Learn More</a>
+        <div class="Manage-billing">
+            <div> <img src="img/icon-billing.png"> </div>
+            <div class="text-content">
+                <h1>Manage billing</h1>
+                <p>Change subscriptions and <br> payment details.</p>
+                <a href="#">Learn More</a>
+            </div>
         </div>
     </div>
 
-    
 
+    <div class="parent">
+
+        <div class="Authenticate">
+            <div> <img src="img/icon-authenticate.png"> </div>
+            <div class="text-content">
+                <h1>Authenticate to Abstract</h1>
+                <p>Set up and configure SSO,<br> SCIM, and Just-in-Time provisioning.
+                </p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+        <div class="Abstract-support">
+            <div> <img src="img/icon-comment.png"> </div>
+            <div class="text-content">
+                <h1>Abstract support</h1>
+                <p>Get in touch with a human.</p>
+                <a href="#">Learn More</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!--footer -->
+    <div class="footer">
+
+        <div class="div-footer">
+            <ul>
+                <h2>Abstract</h2>
+                <li>Start Trial</li>
+                <li>Pricing</li>
+                <li> Download</li>
+
+            </ul>
+        </div>
+
+        <div class="div-footer">
+            <ul>
+                <h2> Resources</h2>
+                <li> Blog</li>
+                <li>Help Center</li>
+                <li>Release Notes</li>
+                <li>Status</li>
+            </ul>
+        </div>
+
+        <div class="div-footer">
+            <ul>
+                <h2>Community</h2>
+                <li>Twitter</li>
+                <li>LinkedIn</li>
+                <li>Facebook</li>
+                <li>Dribbble</li>
+                <li>Podcast</li>
+
+            </ul>
+        </div>
+
+        <div class="div-footer">
+            <ul>
+                <h2>Company</h2>
+                <li>About Us</li>
+                <li> Careers</li>
+                <li>Legal</li>
+                <li>Contact Us</li>
+                <li>info@abstract.com</li>
+
+            </ul>
+        </div>
+
+        <div class="div-footer">
+
+            <ul>
+                <h2>
+                    © Copyright 2025<br>
+
+                    Abstract Studio Design, Inc.<br>
+
+                    All rights reserved</h2>
+
+
+            </ul>
+        </div>
+
+    </div>
 
 </body>
 

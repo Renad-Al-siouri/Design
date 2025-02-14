@@ -139,7 +139,15 @@ height: auto;
     display: flex;
     align-items: center;
 }
+<<<<<<< Updated upstream
 .Manage-Account{
+=======
+
+.UsingAbstract img{
+display: inline;
+}
+.ss{
+>>>>>>> Stashed changes
     display: flex;
     align-items: center;
 }

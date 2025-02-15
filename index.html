@@ -25,6 +25,21 @@
         <button class="button1">Submit a request</button>
         <button class="button2">Sign in</button>
     </div>
+
+    <div class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="mobile-menu">
+       
+        <p>Submit a request<p>
+            <hr>
+        <p>Sign in<p>
+    </div>
+    
+
+
 </nav>
 </header>
    
@@ -36,7 +51,7 @@
         <div>
             
             <input type="text" placeholder="Search" id="Search" class="Search">
-           <span>→</span>
+          <!--<span>→</span>--> 
         </div>
     </div>
     
@@ -75,7 +90,7 @@
   
 
         <div class="content">
-            <div> <img src="img/icon-organizations.png"> </div>
+            <div> <img src="img/icon-organizations.png"> </div> 
             <div class="text-content">
                 <h1>Manage organizations,
                     teams, and projects</h1>
@@ -187,7 +202,11 @@
 </div>
 
     
-    
+<script>
+    document.querySelector(".menu-icon").addEventListener("click", function() {
+        document.querySelector(".mobile-menu").classList.toggle("active");
+    });
+</script>
 </body>
 
 </html>

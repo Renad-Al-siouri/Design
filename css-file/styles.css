@@ -205,3 +205,15 @@ margin-left: 40px;
     font-size: 1.2em;
     
     }
+
+/* Mobile */
+    /* @media(min-width:384px) and (max-width:400px){
+      .Search{
+        width:50px;
+        height: auto;
+      }
+      .parent {
+        
+        flex-wrap: wrap;
+      }
+    } */
